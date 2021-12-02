@@ -1,17 +1,21 @@
+Esse projeto tem como objetivo disponibilizar um backend simples para rodar localmente, podendo adicionar endpoints e gráficos em tempo de execução
 
+<h1>Como rodar?</h1>
 
-rodar o seguinte comando na raiz do projeto:
-docker-compose up --build
+Use
+``docker-compose up --build`` para executar
 
-nodered - http://localhost:1880/
-mongo-express - http://localhost:8081/
-mongo - http://localhost:27017/ 
+*nodered* - http://localhost:1880/
+login:de
+senha:devroot
 
-Entrar em localhost:8081
+*mongo-express* - http://localhost:8081/
+login:dev
+senha:dev
+
+*mongo* - http://localhost:27017/ 
 login:devroot
 senha:devroot
-criar uma collection dentro da database padrão
 
-configurar essa collection no modulo do nodered
-no campo server: host.docker.internal - equivalente a localhost
+No campo server: host.docker.internal - equivalente a localhost
 
